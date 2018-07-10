@@ -1,0 +1,12 @@
+{
+    "require": {
+        "smochin/instagram-php-crawler": "^1.0",
+        "raiym/instagram-php-scraper": "^0.8.17",
+        "bolandish/instagram-grabber": "^1.0",
+        "solarium/solarium": "^3.8",
+        "skyeng/php-lemmatizer": "^1.0",
+        "markfullmer/porter2": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.2"
+		
+    }
+}

@@ -1,0 +1,30 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     outputWeka(ForWeka-New)-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.Reorder-R2,1-weka.filters.unsupervised.attribute.Reorder-R2,1-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-C-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-C-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"-weka.filters.unsupervised.attribute.StringToWordVector-Rfirst-last-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r \t.,;:\'\"()?!¿!-[]’<>“"
+Instances:    10070
+Attributes:   2
+              Caption
+              Review
+Test mode:    10-fold cross-validation
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5412               53.7438 %
+Incorrectly Classified Instances      4658               46.2562 %
+Kappa statistic                          0.0649
+Mean absolute error                      0.3675
+Root mean squared error                  0.423 
+Relative absolute error                 99.1543 %
+Root relative squared error             98.2584 %
+Total Number of Instances            10070     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.998    0.937    0.523      0.998    0.687      0.171    0.565     0.577     Unpopular
+                 0.072    0.002    0.960      0.072    0.134      0.196    0.568     0.498     Neutral
+                 0.000    0.000    ?          0.000    ?          ?        0.543     0.078     Popular
+Weighted Avg.    0.537    0.477    ?          0.537    ?          ?        0.565     0.511     
+
