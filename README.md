@@ -1,2 +1,2 @@
-# Information-Retrieval---CZ4034
+# Information-Retrieval
 Building a search engine based on a text corpus
